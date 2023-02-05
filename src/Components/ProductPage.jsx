@@ -4,6 +4,8 @@ import Price from "../Assets/Price.svg"
 import Shadow from "../Assets/shadow.svg"
 import Star from "../Assets/Star.svg"
 import Cart from "../Assets/Cart.svg"
+import { Routes, Route, Link } from "react-router-dom";
+
 import React, { useState } from 'react';
 
 
@@ -12,6 +14,8 @@ function ProductPage(){
     if(count<0) {
         setCount(0);
     }
+    
+    
     return(
         
         <div className=" w-[1272px]  h-[1911px]  mx-auto mt-[226px] mb-[401px] ">
@@ -51,13 +55,18 @@ function ProductPage(){
               </div>
 
                 <div className="flex">
-                <button className="w-40 h-[73px] bg-custom-green rounded-lg font-Inter text-xl text-white ml-[62px] mr-[46px] ">
-                Add to Cart
-                </button>
+                    <Link to="./PaymentPage.jsx">
+                      <button className="w-40 h-[73px] bg-custom-green rounded-lg font-Inter text-xl text-white ml-[62px] mr-[46px] ">
+                     Order Now
+                       </button>
+                    </Link>
 
-                <button className="flex w-[180px] h-[73px] border border-custom-green rounded-lg items-center place-content-center">
-               <img src={Cart} alt="cart" className= "pr-2.5"/> Order Now
+               <Link to="./PaymentPage.jsx">
+               <button className="flex w-[180px] h-[73px] border border-custom-green rounded-lg items-center place-content-center">
+               <img src={Cart} alt="cart" className= "pr-2.5"  /> Add to Cart
                 </button>
+               </Link>
+            
                 </div> 
 
            </div>
