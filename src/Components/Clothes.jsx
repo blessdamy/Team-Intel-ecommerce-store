@@ -73,7 +73,7 @@ Sort by
 <div className="px-4 py-3">
   <span className="inline-flex">
 <p className="mr-[49px] flex items-left text-lg font-bold truncate capitalize ">Gucci Playsuit Classy</p>
-<p className=" ml-[90px] flex items-right text-lg font-bold truncate capitalize "> <span className=" line-through line-through-double">N</span>30,000 </p>
+<p className=" ml-[90px] flex items-right text-lg font-bold truncate capitalize "> <span className=" line-through line-through-double">N</span>15,000 </p>
 </span>
 <span className=" flex items-left text-gray-400 text-xs">
 Brand perfect product you will love     </span>
@@ -143,8 +143,8 @@ Add to Cart
 
 <div className="px-4 py-3">
   <span className="inline-flex">
-<p className="mr-[49px] flex items-left text-lg font-bold truncate capitalize "> Ribbon Set Varieties </p>
-<p className=" ml-[8px] flex items-right text-lg font-bold truncate capitalize "><span className=" line-through line-through-double">N</span>10,000 </p>
+<p className="mr-[49px] flex items-left text-lg font-bold truncate capitalize "> Dinner Dress </p>
+<p className=" ml-[8px] flex items-right text-lg font-bold truncate capitalize "><span className=" line-through line-through-double">N</span>30,000 </p>
 </span>
 <span className=" flex items-left text-gray-400 text-xs">
 Brand perfect product you will love     </span>
