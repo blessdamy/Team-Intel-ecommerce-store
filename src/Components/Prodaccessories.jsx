@@ -291,4 +291,4 @@ Load more ...
     );
   }
   
-  export default Prodaccessories;
+  // export default Prodaccessories;
