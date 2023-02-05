@@ -1,10 +1,10 @@
-import Productpage from "./Components/Productpage";
+import Prodaccessories from "./Components/Prodaccessories";
 
 function App() {
   return (
     <>
          <div className='text-center'>
-             <Productpage />
+             <Prodaccessories />
  
          </div>
     </>
