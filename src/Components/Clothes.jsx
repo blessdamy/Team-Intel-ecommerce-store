@@ -216,7 +216,7 @@ Add to Cart
 <div className="px-4 py-3">
   <span className="inline-flex">
 <p className="mr-[49px] flex items-left text-lg font-bold truncate capitalize ">Kimino </p>
-<p className=" ml-[60px] flex items-right text-lg font-bold truncate capitalize "> <span className=" line-through line-through-double">N</span>$25,000 </p>
+<p className=" ml-[60px] flex items-right text-lg font-bold truncate capitalize "> <span className=" line-through line-through-double">N</span>25,000 </p>
 </span>
 <span className=" flex items-left text-gray-400 text-xs">
 Brand perfect product you will love     </span>
