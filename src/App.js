@@ -1,3 +1,6 @@
+ B-product-card
+import ProductCard from "./Components/ProductCard";
+
 
 
 
@@ -12,8 +15,10 @@ import Patientform from "./Components/Patientform";
 
 
 import Navbar from "./Components/Navbar";
+ main
 import Testing from "./Components/Testing";
 import Footer from "./Components/Footer";
+
 
 
 function App() {
@@ -34,7 +39,12 @@ function App() {
 
              <Navbar />
              <Testing />
+ B-product-card
+             <ProductCard />
+             
+
              <Footer />
+ main
  
          </div>
     </>
