@@ -4,7 +4,10 @@
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.2.1",
+<<<<<<< HEAD
+=======
     "@fortawesome/free-regular-svg-icons": "^6.2.1",
+>>>>>>> 75144fcc48045516dc51e787849be7df67a0bbdb
     "@fortawesome/free-solid-svg-icons": "^6.2.1",
     "@fortawesome/react-fontawesome": "^0.2.0",
     "@testing-library/jest-dom": "^5.16.5",
@@ -15,7 +18,7 @@
     "react-dom": "^18.2.0",
     "react-icons": "^4.7.1",
     "react-router-dom": "^6.7.0",
-    "react-scripts": "5.0.1",
+    "react-scripts": "^5.0.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
