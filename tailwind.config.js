@@ -2,6 +2,7 @@
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
+ B-product-card
     colors: {
       // transparent: 'transparent',
       // current: 'currentColor',
@@ -94,6 +95,17 @@ module.exports = {
     },
 
     
+
+    extend: {},
+    colors: {
+      transparent: 'transparent',
+      current: 'currentColor',
+      'white': '#ffffff',
+      'green': '#0D6038',
+      'black': '#231815',
+      'bubble-gum': '#ff77e9',
+    },
+ main
   },
   plugins: [],
 }
