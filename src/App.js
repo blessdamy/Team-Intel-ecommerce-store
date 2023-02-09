@@ -1,15 +1,37 @@
-<<<<<<< HEAD
-import Clothes from "./Components/Clothes";
-=======
+
+
+
+import  Homepage from "./Components/Homepage";
+import  Signup from "./Components/Signup";
+import  Loginpage from "./Components/Loginpage";
+import  Page from "./Components/Page";
+import  Shoes from "./Components/Shoes";
+import Reviewpage from "./Components/Reviewpage";
+import Patientform from "./Components/Patientform";
+
+
+
 import Navbar from "./Components/Navbar";
 import Testing from "./Components/Testing";
 import Footer from "./Components/Footer";
->>>>>>> 75144fcc48045516dc51e787849be7df67a0bbdb
+
 
 function App() {
   return (
     <>
          <div className='text-center'>
+
+         <Homepage/>
+         <Signup/>
+          <Loginpage/>
+             <Page />
+             <Shoes />
+             <Reviewpage/>
+             <Patientform/>
+           
+            
+             
+
              <Navbar />
              <Testing />
              <Footer />
@@ -19,4 +41,4 @@ function App() {
    )
 }
 
-export default App
+export default App;

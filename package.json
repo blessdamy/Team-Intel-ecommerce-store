@@ -4,10 +4,12 @@
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.2.1",
-<<<<<<< HEAD
-=======
+
+    "@fortawesome/free-brands-svg-icons": "^6.2.1",
     "@fortawesome/free-regular-svg-icons": "^6.2.1",
->>>>>>> 75144fcc48045516dc51e787849be7df67a0bbdb
+
+    "@fortawesome/free-regular-svg-icons": "^6.2.1",
+
     "@fortawesome/free-solid-svg-icons": "^6.2.1",
     "@fortawesome/react-fontawesome": "^0.2.0",
     "@testing-library/jest-dom": "^5.16.5",
@@ -47,6 +49,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.13",
+    "eslint-plugin-react": "^7.32.2",
     "postcss": "^8.4.21",
     "tailwindcss": "^3.2.4"
   }
