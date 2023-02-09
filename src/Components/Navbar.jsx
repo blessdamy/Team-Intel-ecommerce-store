@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import logo from "../Img/Logo.svg";
@@ -11,11 +12,13 @@ import {
 
 const Nav = () => {
   let Links = [
-    { name: "Our Team", link: "/team", icon: faCartShopping },
-    { name: "About Us", link: "/about", icon: faBell },
+    { name: "Cart", link: "/", icon: faCartShopping },
+    { name: "Notification", link: "/", icon: faBell },
     { name: "Profile", link: "/", icon: faUser },
+    // { name: "Navbar", link: "/hamburger", icon: faNavicon },
   ];
   let [open, setOpen] = useState(false);
+
   return (
     <div className="shadow-md w-full fixed top-0 left-0 bg-green text-white">
       <div className="md:flex items-center justify-between w-3/4 m-auto py-2 md:px-10 px-7">
@@ -23,6 +26,22 @@ const Nav = () => {
           className="md:ml-8  md:my-0 my-7 mr-4 font-bold pb-2 cursor-pointer flex items-center font-avenir-light
       "
         >
+          {/* <Navbar className="py-2 px-3" sticky="top" expand="md" id="navbar-bg">
+            <Container>
+              <Navbar.Collapse id="responsive-navbar-nav">
+                <Nav className="justify-content-center  flex-grow-1 ">
+                  <Nav.Link className="mx-1 mx-md-4" href="#hamburger">
+                    <FontAwesomeIcon
+                      icon={faNavicon}
+                      className={
+                        "hover:cursor-pointer hover:scale-125 transition duration-300 ease-in-out"
+                      }
+                    />
+                  </Nav.Link>
+                </Nav>
+              </Navbar.Collapse>
+            </Container>
+          </Navbar> */}
           <FontAwesomeIcon
             icon={faNavicon}
             className={
@@ -31,12 +50,22 @@ const Nav = () => {
           />
           <img src={logo} alt="logo" />
         </div>
-        <div className="w-1/2 flex items-center">
-            <div className="relative w-full">
-                <input type="text" id="simple-search" className="bg-green border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Search...." required />
-                <div className="absolute inset-y-0 right-4 flex items-center pl-4 right-0 p-2.5 text-black bg-white pointer-events-none rounded-r-xl focus:ring-5 focus:outline-none "><svg aria-hidden="true" className="w-5 h-5 text-gray-500 dark:text-gray-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd"></path></svg>
-                </div>
-            </div>
+        <div className="border w-1/2 rounded overflow-hidden flex justify-between">
+          <input
+            type="text"
+            class="px-4 bg-green w-full py-2"
+            placeholder="Search...."
+          />
+          <button className="flex items-center bg-white justify-center px-4 border-l">
+            <svg
+              className="h-4 w-4 text-grey-dark"
+              fill="black"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+            >
+              <path d="M16.32 14.9l5.39 5.4a1 1 0 0 1-1.42 1.4l-5.38-5.38a8 8 0 1 1 1.41-1.41zM10 16a6 6 0 1 0 0-12 6 6 0 0 0 0 12z" />
+            </svg>
+          </button>
         </div>
 
         <ul
@@ -46,7 +75,7 @@ const Nav = () => {
         >
           <li className="md:ml-8  md:my-0 my-7 mr-4 hover:underline">
             <a
-              href="https://linktr.ee/team_intel"
+              href="#"
               target="_blank"
               rel="noreferrer"
               className="hover:scale-115 duration-500"
