@@ -1,3 +1,6 @@
+
+import Form from "./Components/Form";
+import NotFound from "./Components/NotFound";
 import Testing from "./Components/Testing";
 
 function App() {
@@ -5,6 +8,9 @@ function App() {
     <>
          <div className='text-center'>
              <Testing />
+             <Form />
+             <NotFound />
+             
  
          </div>
     </>
