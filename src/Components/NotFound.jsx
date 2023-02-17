@@ -3,9 +3,8 @@ import logo from '../Assets/logo.svg'
 
 const NotFound = () => {
   return (
-    <div>
-
-      <div className='place-item-center'>
+    <div className='h-screen w-full'>
+      <div className='bg-white flex justify-center'>
       <img src={logo} alt="logo" />
       </div>
     <div>
